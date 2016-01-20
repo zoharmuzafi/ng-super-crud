@@ -1,4 +1,4 @@
-# NG Super Crud
+# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> NG Super Crud
 
 Create an Angular app which uses the end points available on <a href="https://github.com/sf-wdi-24/crud-api" target="_blank">super-crud</a>.
 
