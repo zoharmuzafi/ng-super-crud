@@ -1,0 +1,24 @@
+<h1>index</h1>
+<div ng-controller="bookIndexCtrl">
+	<ul>
+
+		<form ng-submit="addBook()">
+			<div class="form-group">
+					<input type="text" class="form-control" ng-model="book.title" placeholder="Name">
+			</div>
+			<div class="form-group">
+					<input type="text" class="form-control" ng-model="book.author" placeholder="Author">
+			</div>
+			<div class="form-group">
+					<input type="text" class="form-control" ng-model="book.image" placeholder="Img URL">
+			</div>
+			<input type="submit" class="btn btn-primary">
+		</form>
+
+
+		<li ng-repeat="book in books">
+		{{book.title}} 
+		<a ng-href="/books/{{book._id}}">{{book.title}}</a>
+		</li>
+	</ul>
+</div>

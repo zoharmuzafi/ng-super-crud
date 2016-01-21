@@ -1,0 +1,19 @@
+<h1>show</h1>
+<div ng-controller="bookShowCtrl">{{book.title}}
+
+	<a ng-click="deleteBook()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+
+		<form ng-submit="editBook()">
+			<div class="form-group">
+					<input type="text" class="form-control" ng-model="editbook.title" valude"title">
+			</div>
+			<div class="form-group">
+					<input type="text" class="form-control" ng-model="editbook.author" placeholder="author">
+			</div>
+			<div class="form-group">
+					<input type="text" class="form-control" ng-model="editbook.image" placeholder="image">
+			</div>
+			<input type="submit" class="btn btn-primary">
+		</form>
+
+</div>
